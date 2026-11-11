@@ -1,0 +1,64 @@
+TESTING STEPS: (ROUGH DRAFT OUTLINE)
+
+This testing outline is adapted from a testing assignment we had in another of the classes.
+
+
+#1 - COMPILATION/INTERPRETER
+
+This phase isnt necessarily part of the use case list or functionality testing, but it is designed to make sure 
+we are all on the same page and testing the same stuff.
+
+I'll obviously need all the files with some basic intstructions and comments on how to set them up and run them.  
+
+If the files are interpreted, e.g. python, please include a venv with all the files and dependencies zipped into
+into one complete zip file; or at least provide the list of modules, dependencies, etc on how to setup.
+
+If the files a compiled, or need need to be compiled, please provide complete structure with compilation instructions.
+
+Make sure all data is provided, too.
+
+
+#2 - TURNING EVERYTHING ON
+
+The first thing I will look for is to see if the receiver can be turned on, and if it is listening okay.
+
+Next, I'll try some basic use cases to ensure the sender is working.
+
+Last, check to see if everything shuts down well enough.
+
+The reason for this is - if it cant perform a simple send and receive transmission, then the more complex use cases 
+probably wont work either.
+
+
+#3 - USE CASE SCENARIOS
+
+Assuming everything is setup, running and looking basically good...
+
+Please provide ALL the use case commands you want me to test, arguments and parameters,
+along with some indication of the expected output. 
+
+The point here is to make sure I'm testing the same code, under the same conditions, in anticipation of the same results.
+
+That includes error messages, or even if the code fails completely for some reason.  Meaning - sometimes a programmer might
+not be able to figure something out - so if it is an known run time error, logic error, syntax error, etc, it's probably good
+to know it has been previously identified.
+
+
+#4 - OUTPUT 
+
+By output, here I mean any significant expected output, files, etc... the program is supposed to generate.
+
+That would also include even error messages the compiler or interpreter might generate.
+
+The results should show the app performs, delivers and fulfills its purpose. 
+
+
+#5 - FINAL REPORT
+
+In conclusion, I will write my final testing report, so as to point out everything is working as it should, point out
+possible errors, limitations, suggest possible changes or improvements, and so on. 
+
+If helpful or necessary, I may try to include any interpreter or compiler messages, as appropriate.
+
+But, basically, I will primarily look to see if the app fulfills the assignment specs.
+
